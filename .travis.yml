@@ -1,4 +1,4 @@
 before_install:
   - npm install -g dredd
 before_script:
-  - dredd apiary.apib
+  - dredd apiary.apib http://pollapitest.azurewebsites.net/
