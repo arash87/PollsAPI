@@ -1,4 +1,4 @@
 before_install:
   - npm install -g dredd
 before_script:
-  - dredd apiary.apib http://pollapitest.azurewebsites.net/
+  - dredd -c apiaryApiKey:6ba9d4f08d62c3d6487ea00b85ed31e0 -c apiaryApiName:arashfarmani http://pollapitest.azurewebsites.net/
