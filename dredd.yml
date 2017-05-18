@@ -1,3 +1,7 @@
+reporter: apiary
+custom:
+  apiaryApiKey: 6ba9d4f08d62c3d6487ea00b85ed31e0
+  apiaryApiName: arashfarmani
 dry-run: null
 hookfiles: null
 language: nodejs
@@ -5,16 +9,14 @@ sandbox: false
 server: null
 server-wait: 3
 init: false
-custom: {}
 names: false
 only: []
-reporter: []
 output: []
 header: []
 sorted: false
 user: null
 inline-errors: false
-details: true
+details: false
 method: []
 color: true
 level: info
