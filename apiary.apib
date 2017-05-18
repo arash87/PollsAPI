@@ -9,7 +9,7 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 
 ### List All Questions [GET]
 
-+ Response 200 (application/json)
++ Response 200 (application/json; charset=utf-8)
 
         [
             {
@@ -39,7 +39,7 @@ You may create your own question using this action. It takes a JSON
 object containing a question and a collection of answers in the
 form of choices.
 
-+ Request (application/json)
++ Request (application/json; charset=utf-8)
 
         {
             "question": "Favourite programming language?",
