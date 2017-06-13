@@ -8,9 +8,6 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 ## Questions Collection [/questions]
 
 ### List All Questions [GET]
-        + Request
-            + Headers
-            Authorization: 49a2ad47-27b3-4798-90f1-9b5083b083d3
 
 + Response 200 (application/json; charset=utf-8)
 
@@ -42,9 +39,7 @@ You may create your own question using this action. It takes a JSON
 object containing a question and a collection of answers in the
 form of choices.
 
-        + Request (application/json)
-            + Headers
-            Authorization: 49a2ad47-27b3-4798-90f1-9b5083b083d3
++ Request (application/json)
 
         {
             "question": "Favourite programming language?",
@@ -78,4 +73,4 @@ form of choices.
                         "votes": 0
                     }
                 ]
-            }
+            }removed
